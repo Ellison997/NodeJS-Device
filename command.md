@@ -1,0 +1,70 @@
+# 命令
+
+- REMOTE?;   询问是否连接远程   
+    - OFF
+- REMOTE ON;   开启远程命令
+- ERROR?;   询问是否有错误      
+    - 0
+- MODE?;   询问模式
+    - SPECTRUM   频普
+- MODE SPECTRUM;    应该是设置模式
+- ERROR?;   询问是否有错误  
+- ISO_MODE?;   询问国际模式
+    - 3CH_ISO
+- DEV_INFO?;   询问设备信息
+    - Narda STS GmbH,SRM-3000,BN-3001/01,N-0137,V01.00,23.02.10,V1.5.6;
+- DEV_ID?;    询问设备序列号
+    - EF5D1CBA46B88CFA
+- MEAS RUN?;   询问是否多多环境运行
+    - START  
+- DEV_OPTION? 0;  询问设备选项
+    -  CLOSED,UMTS P-CPICH Demodulation;    关闭,UMTS P-CPICH 解调
+- CT_ANT_LST?;   询问什么天线的标准
+    - 返回  20 句    1,noData,,,,noEnum
+    - 意思说没数据
+- CT_CBL_LST?;   询问另一个标准
+    - 返回  20 句     2,noData,,,
+- CT_SRV_LST?;   询问可查询的信号源吧
+    - 000051: 1,HZ Overview,HangZhou Quan Ju
+    - 000052: 2,HZ Overview,HangZhou Radio
+    - 000053: 3,HZ Mobile,HangZhou Mobile
+    - 000054: 4,HZ Mobile,HangZhou GSM 2G
+    - 000055: 5,HZ Mobile,HangZhou Mobile 3G
+    - 000056: 6,HangZhou Uni,UNI
+    - 000057: 7,HangZhou CMCC,CMCC
+    - 000058: 8,CMCC TOTAL,CMCC TOTAL
+    - 000059: 9,UNI TOTAL,UNI TOTAL
+- CT_CLN_LST?    询问？？？
+    - 返回  20 句     2,noData,
+- CT_STN_LST?    询问？？？
+    - 返回  20 句     2,noData,
+- DATE?;   询问日期
+    - 26.03.20;
+- TIME?;   询问时间
+    - 06:29:40;
+- CT_STN_SEL?;   
+    - 20,noData,;
+- SU_LIST?;    询问 ？？？
+    - 返回 20   19,default,01.01.03,12:00:00
+- HOLD?;   询问控制
+    - OFF
+- NUM_FORMAT?;  询问数据格式
+    - NORMAL    普通
+- MR_SEARCH_MODE?;     询问 MR 搜寻模式
+    - NORMAL 普通
+- MR_SEARCH_SETUP?;    询问搜寻是否设置
+    - OFF 
+- MR?;
+    - 180
+- MR_LIMITS?;   询问MR 的范围
+    - 2.25,180;
+- TRACE?;   询问跟踪
+    - ACT    行动，好像是开启了
+- UNIT?;   询问单位
+    - V/m;
+
+
+
+
+- REMOTE ON;   开启远程命令
+- MODE SPECTRUM;    应该是设置模式
