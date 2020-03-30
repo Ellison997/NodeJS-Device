@@ -27,11 +27,11 @@ async function fnData(data) {
 }
 
 function TestCharacteristic() {
-
+    //dev/ttyUSB0
     let ret = 0;
     //ret = await async_serialport.initport("COM5");
     mserialport.
-    open("/dev/ttyUSB0", 115200, 'none', 8, 1, fnData, fnError)
+    open("COM4", 115200, 'none', 8, 1, fnData, fnError)
         .then(res => {
             log.info('打开串口成功：', res)
             log.info(`serialport.open`);

@@ -60,7 +60,7 @@ parser.on('readable', function() {
 
 function send(data) {
     return new Promise((resolve, reject) => {
-        parser.write(data, function(err, result) {
+        parser.write(data, function(err) {
             if (err) {
                 log.info("mserialport.send 错误:");
                 reject(false);
