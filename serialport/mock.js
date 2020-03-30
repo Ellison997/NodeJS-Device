@@ -46,21 +46,6 @@ parser.on('data', data => {
 })
 
 
-// function onData() {
-//     return new Promise((resolve, reject) => {
-//         // log received data
-//         parser.on('data', data => {
-//             //  console.log('接收到的数据:\t', data.toString('utf8'))
-//             // resultData = data.toString('utf8')
-//             resolve(data.toString('utf8'));
-//         })
-//         parser.on('error', function(err) {
-//             reject(err);
-
-//         })
-//     })
-
-// }
 
 // Read data that is available but keep the stream in "paused mode"
 
