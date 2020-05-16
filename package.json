@@ -1,54 +1,20 @@
 {
-  "name": "bleno",
-  "version": "0.5.0",
-  "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.8"
-  },
-  "os": [
-    "darwin",
-    "linux",
-    "android",
-    "freebsd",
-    "win32"
-  ],
+  "name": "roms5g_ble_device",
+  "version": "1.0.0",
+  "description": "5g 国产设备蓝牙对接",
+  "main": "sam.js",
   "scripts": {
-    "pretest": "jshint *.js lib/. test/. examples/.",
-    "test": "mocha -R spec test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sandeepmistry/bleno"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
   },
   "keywords": [
-    "BLE",
-    "Bluetooth",
-    "Bluetooth Low Energy",
-    "Bluetooth Smart",
-    "peripheral"
+    "bleno"
   ],
-  "author": "Sandeep Mistry",
-  "maintainers": [
-    "Jacob Rosenthal"
-  ],
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "jshint": "~2.9.4",
-    "should": "~2.0.2",
-    "mocha": "~1.14.0",
-    "node-blink1": "~0.2.2"
-  },
+  "author": "Chunle Tian",
+  "license": "ISC",
+  "gypfile": true,
   "dependencies": {
-    "debug": "^2.2.0",
-    "log4js": "^5.3.0",
-    "serialport": "^8.0.5",
-    "serialport-por": "file:serialport"
-  },
-  "optionalDependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
-    "bplist-parser": "0.0.6",
-    "xpc-connection": "~0.1.4"
+    "bleno": "^0.5.0",
+    "serialport": "^9.0.0"
   }
 }

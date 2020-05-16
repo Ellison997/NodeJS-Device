@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="origin-trial" data-feature="Web Bluetooth" data-expires="2016-10-27"
+    content="AhOSFFjqwOIQUX7EFtyqLN8stlBdFbNlGboLTvLSuBpgbz5OyQS0oB6t9Vc6V55SWdDZEoUw8eUtutSIG028FQkAAABgeyJvcmlnaW4iOiAiaHR0cHM6Ly9zdHJhbmdlc2FzdC5naXRodWIuaW86NDQzIiwgImZlYXR1cmUiOiAiV2ViQmx1ZXRvb3RoIiwgImV4cGlyeSI6IDE0Nzc1OTIzNTF9">
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <h1>国产设备</h1>
+  <button id="start" onclick="onStartButtonClick()">连接</button>
+
+  <h3>设置操作</h3>
+  <button id="open" onclick="onOpenButtonClick()">开机</button>
+  <h2></h2>
+  <button id="close" onclick="onCloseButtonClick()">关机</button>
+  <h3>获取数据</h3>
+  <button id="tab" onclick="onTabListButtonClick()">获取列表数据</button>
+  <h3>结果</h3>
+  <p id="output">Your browser does not support web bluetooth or javascript is disabled...</p>
+
+  <script src='device-index.js'></script>
+</body>
+
+</html>
