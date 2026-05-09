@@ -1,0 +1,122 @@
+[
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_01&Col05#7&233ef6bc&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}\\kbd",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 1,
+    "usagePage": 1,
+    "usage": 6
+  },
+  {
+    "vendorId": 21090,
+    "productId": 19275,
+    "path": "\\\\?\\HID#VID_5262&PID_4B4B&MI_00&Col01#7&2bd8694e&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\\kbd",
+    "serialNumber": "CH55xQMKLite",
+    "manufacturer": "R",
+    "product": "KeyKey",
+    "release": 1,
+    "interface": 0,
+    "usagePage": 1,
+    "usage": 6
+  },
+  {
+    "vendorId": 21090,
+    "productId": 19275,
+    "path": "\\\\?\\HID#VID_5262&PID_4B4B&MI_00&Col02#7&2bd8694e&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "CH55xQMKLite",
+    "manufacturer": "R",
+    "product": "KeyKey",
+    "release": 1,
+    "interface": 0,
+    "usagePage": 1,
+    "usage": 14
+  },
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_01&Col01#7&233ef6bc&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 1,
+    "usagePage": 1,
+    "usage": 2
+  },
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_01&Col02#7&233ef6bc&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 1,
+    "usagePage": 1,
+    "usage": 128
+  },
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_01&Col03#7&233ef6bc&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 1,
+    "usagePage": 12,
+    "usage": 1
+  },
+  {
+    "vendorId": 21090,
+    "productId": 19275,
+    "path": "\\\\?\\HID#VID_5262&PID_4B4B&MI_01#7&1414dd09&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "CH55xQMKLite",
+    "manufacturer": "R",
+    "product": "KeyKey",
+    "release": 1,
+    "interface": 1,
+    "usagePage": 65376,
+    "usage": 97
+  },
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_01&Col04#7&233ef6bc&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 1,
+    "usagePage": 65308,
+    "usage": 146
+  },
+  {
+    "vendorId": 7247,
+    "productId": 72,
+    "path": "\\\\?\\HID#VID_1C4F&PID_0048#6&34a8dc7b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+    "serialNumber": "",
+    "manufacturer": "(标准系统设备)",
+    "product": "",
+    "release": 272,
+    "interface": 0,
+    "usagePage": 1,
+    "usage": 2
+  },
+  {
+    "vendorId": 1130,
+    "productId": 170,
+    "path": "\\\\?\\HID#VID_046A&PID_00AA&MI_00#7&100eda7e&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\\kbd",
+    "serialNumber": "",
+    "manufacturer": "CHERRY",
+    "product": "Mechanical Keyboard",
+    "release": 256,
+    "interface": 0,
+    "usagePage": 1,
+    "usage": 6
+  }
+]

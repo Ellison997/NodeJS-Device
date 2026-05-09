@@ -15,6 +15,7 @@
   "gypfile": true,
   "dependencies": {
     "bleno": "^0.5.0",
+    "node-hid": "^3.1.2",
     "serialport": "^9.0.0"
   }
 }
